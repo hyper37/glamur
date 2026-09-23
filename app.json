@@ -1,25 +1,30 @@
-{
+﻿{
   "expo": {
     "name": "Glamur",
-    "slug": "Glamur",
+    "slug": "glamur",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/glamur-icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#F4E8EB",
+        "foregroundImage": "./assets/glamur-foreground.png",
+        "monochromeImage": "./assets/glamur-foreground.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.hyper37.glamur"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/glamur-icon.png",
+      "bundler": "metro",
+      "name": "Glamur — Tu espacio de belleza",
+      "output": "single"
+    },
+    "plugins": ["expo-router", "expo-font"],
+    "scheme": "glamur"
   }
 }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect id="background" width="1024" height="1024" fill="#F4E8EB"/>
+  <text x="500" y="647" text-anchor="middle" font-family="Georgia,serif" font-size="620" fill="#A7526A">g</text>
+  <path d="M735 270 Q740 300 770 305 Q740 310 735 340 Q730 310 700 305 Q730 300 735 270Z" fill="#A7526A"/>
+</svg>
